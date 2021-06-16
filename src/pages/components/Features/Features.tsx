@@ -8,9 +8,18 @@ import {
   FeatureChildDiv3,
   FeatureLabel,
 } from "../../../styles/Features/FeaturesStyle";
-import { data } from "./assets/data";
 import DisplaySection from "./components/DisplaySection";
 import { motion } from "framer-motion";
+
+const data = {
+  title: ["BookMark One Click", "Intelligent Search", "Share your Bookmarks"],
+  descript: {
+    one: "Organize your bookmarks however you like. Our simple darg-and-drop interface gives you complete control over how you manage your favorite sites",
+    two: "Our powerful search feature will help you find saved sites in to time at all. No need to trawl through all of your bookmarks",
+    three:
+      "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button",
+  },
+};
 
 const Features: FC = () => {
   const [mode, setMode] = useState({
@@ -26,7 +35,11 @@ const Features: FC = () => {
   console.log(mode);
   return (
     <FeatureDiv id="features">
-      <motion.div initial={{ opacity: 0 }}  animate={{ x: 0, opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
         <FeatureChildDiv1>
           <h2>Features</h2>
           <p>
@@ -36,7 +49,11 @@ const Features: FC = () => {
           </p>
         </FeatureChildDiv1>
       </motion.div>
-      <motion.div initial={{ opacity: 0 }}  animate={{ x: 0, opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }} >
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 2 }}
+      >
         <FeatureLabel htmlFor="simple" active={mode.mode === "simple"}>
           <b>Simple</b>
         </FeatureLabel>

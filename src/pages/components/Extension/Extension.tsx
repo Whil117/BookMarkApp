@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "./assets/data";
+
 import { Card } from "./components/Card";
 import iconGoogle from "../../../../public/images/logo-chrome.svg";
 import iconFireFox from "../../../../public/images/logo-firefox.svg";
@@ -9,6 +9,10 @@ import {
   ExtensionChildDiv1,
   ExtensionChildDiv2,
 } from "../../../styles/Extension/ExtensionStyle";
+const data = {
+  info: `We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize`,
+};
+
 const Extension = () => {
   return (
     <ExtensionDiv
