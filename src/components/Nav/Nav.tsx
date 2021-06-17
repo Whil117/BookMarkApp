@@ -3,13 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 import iconBookMark from "../../../../public/images/logo-bookmark.svg";
 import {
-  NavLinks,
-  NavLink,
   Navegation,
   NavButton,
-} from "../../../styles/Nav/NavStyle";
+} from "../../styles/Nav/NavStyle";
 import NavLinkDiv from "./components/NavLinkDiv";
-import { motion } from "framer-motion";
 
 const Nav: FC = () => {
   const [list, setlist] = useState(false);

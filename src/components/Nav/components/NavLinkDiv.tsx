@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { NavLinks, NavLink } from "../../../../styles/Nav/NavStyle";
+import { NavLinks, NavLink } from "../../../styles/Nav/NavStyle";
 
 interface Props {
   display: string;

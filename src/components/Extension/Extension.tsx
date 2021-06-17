@@ -8,7 +8,7 @@ import {
   ExtensionDiv,
   ExtensionChildDiv1,
   ExtensionChildDiv2,
-} from "../../../styles/Extension/ExtensionStyle";
+} from "../../styles/Extension/ExtensionStyle";
 const data = {
   info: `We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize`,
 };

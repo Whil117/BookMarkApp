@@ -7,7 +7,7 @@ import {
   FeatureDiv,
   FeatureChildDiv3,
   FeatureLabel,
-} from "../../../styles/Features/FeaturesStyle";
+} from "../../styles/Features/FeaturesStyle";
 import DisplaySection from "./components/DisplaySection";
 import { motion } from "framer-motion";
 

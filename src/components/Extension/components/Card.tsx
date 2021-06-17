@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import Image from "next/image";
-import { CardChild } from "../../../../styles/Extension/ExtensionStyle";
+import { CardChild } from "../../../styles/Extension/ExtensionStyle";
 
 interface Data {
   img: any;
