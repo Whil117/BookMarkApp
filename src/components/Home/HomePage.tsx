@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import iconPc from "../../../../public/images/illustration-hero.svg";
+import iconPc from "../../../public/images/illustration-hero.svg";
 import Image from "next/image";
 import { HomeDiv, HomeLinks } from "../../styles/Home/HomeStyle";
 import { motion } from "framer-motion";

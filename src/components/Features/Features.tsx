@@ -1,7 +1,7 @@
 import React, { FC, useState } from "react";
-import PhotoS1 from "../../../../public/images/illustration-features-tab-1.svg";
-import PhotoS2 from "../../../../public/images/illustration-features-tab-2.svg";
-import PhotoS3 from "../../../../public/images/illustration-features-tab-3.svg";
+import PhotoS1 from "../../../public/images/illustration-features-tab-1.svg";
+import PhotoS2 from "../../../public/images/illustration-features-tab-2.svg";
+import PhotoS3 from "../../../public/images/illustration-features-tab-3.svg";
 import {
   FeatureChildDiv1,
   FeatureDiv,

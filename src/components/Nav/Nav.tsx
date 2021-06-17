@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import iconBookMark from "../../../../public/images/logo-bookmark.svg";
+import iconBookMark from "../../../public/images/logo-bookmark.svg";
 import {
   Navegation,
   NavButton,
