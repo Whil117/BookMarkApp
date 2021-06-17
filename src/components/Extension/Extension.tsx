@@ -1,5 +1,4 @@
 import React from "react";
-
 import Card from "./components/Card";
 import iconGoogle from "../../../public/images/logo-chrome.svg";
 import iconFireFox from "../../../public/images/logo-firefox.svg";

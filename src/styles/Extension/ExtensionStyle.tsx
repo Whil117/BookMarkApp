@@ -29,6 +29,8 @@ export const ExtensionDiv = styled(motion.div)`
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  margin-bottom: 50px;
+  font-size: large;
   h3{
       color: dodgerblue;
   }
