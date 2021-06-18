@@ -32,7 +32,7 @@ export const Mail: FC = () => {
     return isValidEmail;
   };
   return (
-    <EmailDiv initial={{ opacity: 0 }}  animate={{ x: 0, opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }}>
+    <EmailDiv id="contact" initial={{ opacity: 0 }}  animate={{ x: 0, opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }}>
       <EmailChildDiv>
         <p>35.000+ ALREADY JOINED </p>
         <h2>Stay up-to-date with what we´re doing</h2>

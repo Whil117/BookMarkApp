@@ -15,6 +15,7 @@ const data = {
 const Extension:FC = () => {
   return (
     <ExtensionDiv
+      id="extension"
       initial={{ opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ ease: "easeOut", duration: 2 }}

@@ -14,10 +14,10 @@ const NavLinkDiv: FC<Props> = ({ display, login, login2 = true }) => {
         <NavLink display={display} login={login} href="#features">
           Features
         </NavLink>
-        <NavLink display={display} login={login} href="#">
-          Pricing
+        <NavLink display={display} login={login} href="#extension">
+          Extension
         </NavLink>
-        <NavLink display={display} login={login} href="#">
+        <NavLink display={display} login={login} href="#contact">
           Contact
         </NavLink>
       </div>
