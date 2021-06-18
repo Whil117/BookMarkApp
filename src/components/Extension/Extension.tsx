@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Card from "./components/Card";
 import iconGoogle from "../../../public/images/logo-chrome.svg";
 import iconFireFox from "../../../public/images/logo-firefox.svg";
@@ -12,7 +12,7 @@ const data = {
   info: `We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize`,
 };
 
-const Extension = () => {
+const Extension:FC = () => {
   return (
     <ExtensionDiv
       initial={{ opacity: 0 }}

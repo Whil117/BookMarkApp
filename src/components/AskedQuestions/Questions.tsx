@@ -1,5 +1,9 @@
 import React, { FC } from "react";
-import { QuestionChildDiv, QuestionsDiv } from "../../styles/Questions/QuestionsStyle";
+import {
+  QuestionChildDiv,
+  QuestionsDiv,
+  QuestionsLink,
+} from "../../styles/Questions/QuestionsStyle";
 import Asked from "./components/Asked";
 
 const data = {
@@ -15,10 +19,13 @@ const data = {
 
 const Questions: FC = () => {
   return (
-    <QuestionsDiv>
+    <QuestionsDiv initial={{ opacity: 0 }}  animate={{ x: 0, opacity: 1 }} transition={{ ease: "easeOut", duration: 2 }}>
       <QuestionChildDiv>
         <h3>Frequently Asked Questions</h3>
-        <p>Here are some of our FAQs. If you have any other questions you´d like answered please feel free to email us.</p>
+        <p>
+          Here are some of our FAQs. If you have any other questions you´d like
+          answered please feel free to email us.
+        </p>
       </QuestionChildDiv>
       <div>
         <Asked title={data.title[0]} descript={data.descript} />
@@ -26,6 +33,8 @@ const Questions: FC = () => {
         <Asked title={data.title[2]} descript={data.descript} />
         <Asked title={data.title[3]} descript={data.descript} />
       </div>
+
+      <QuestionsLink href="#"> More Info</QuestionsLink>
     </QuestionsDiv>
   );
 };

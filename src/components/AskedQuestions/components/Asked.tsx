@@ -25,7 +25,7 @@ const Asked: FC<AskedProps> = ({ title, descript }) => {
         active={display === true}
         onClick={handleClick}
       >
-        {title}
+        <b>{title}</b>
         {display ? (
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
           <path
